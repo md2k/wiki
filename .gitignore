@@ -1,0 +1,23 @@
+.idea/
+*.iml
+
+*.gem
+.bundle
+.ruby-version
+.jekyll-cache
+.sass-cache
+_site
+#Gemfile.lock
+node_modules
+
+# Local .terraform directories
+**/.terraform/*
+ 
+# .tfstate files
+*.tfstate
+*.tfstate.*
+ 
+# .tfvars files
+*.tfvars
+.terraform-version
+.terraform.lock.hcl

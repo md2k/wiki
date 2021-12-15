@@ -1,0 +1,16 @@
+version: "3.5"
+
+services:
+  wiki:
+    container_name: wiki
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: md2k/documentation-theme-jekyll:1.0.0
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/home/docker/app
+    stdin_open: true
+    tty: true
+    command: bundle exec jekyll serve -H 0.0.0.0 -t --config _config.yml,_config_local.yml

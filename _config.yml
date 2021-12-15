@@ -1,0 +1,17 @@
+# Github Pages Config
+# theme: just-the-docs
+# We use remote theme
+remote_theme: tomjoht/documentation-theme-jekyll
+
+logo: /assets/img/fedex-logo-orange-purple.png
+title: CNP Documentation
+description: CNP Documentation
+show_downloads: false
+
+# Search
+# https://pmarsceill.github.io/just-the-docs/docs/search/
+search_enabled: true
+
+# Footer Settings
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
