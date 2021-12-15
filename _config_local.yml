@@ -3,5 +3,7 @@ plugins:
 
 # This set theme locally for local docker run
 #theme: documentation-theme-jekyll
-remote_theme: tomjoht/documentation-theme-jekyll@gh-pages
+# remote_theme: tomjoht/documentation-theme-jekyll@gh-pages
+remote_theme: md2k/documentation-theme-jekyll@move_assets
+
 
