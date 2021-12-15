@@ -1,7 +1,11 @@
 # Github Pages Config
 # theme: just-the-docs
 # We use remote theme
-remote_theme: tomjoht/documentation-theme-jekyll
+# remote_theme: tomjoht/documentation-theme-jekyll
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: tomjoht/documentation-theme-jekyll@gh-pages
 
 logo: /assets/img/fedex-logo-orange-purple.png
 title: CNP Documentation
