@@ -13,4 +13,4 @@ services:
       - .:/home/docker/app
     stdin_open: true
     tty: true
-    command: bundle exec jekyll serve -H 0.0.0.0 -t --config _config.yml,_config_local.yml
+    command: bundle exec jekyll serve -H 0.0.0.0 --incremental -t --config _config.yml,_config_local.yml

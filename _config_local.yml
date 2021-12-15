@@ -1,5 +1,5 @@
-plugins:
-  - jekyll-remote-theme
+# plugins:
+#   - jekyll-remote-theme
 
 # This set theme locally for local docker run
 #theme: documentation-theme-jekyll
