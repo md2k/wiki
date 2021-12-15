@@ -2,10 +2,7 @@
 # theme: just-the-docs
 # We use remote theme
 # remote_theme: tomjoht/documentation-theme-jekyll
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: tomjoht/documentation-theme-jekyll@gh-pages
+theme: theme
 
 logo: /assets/img/fedex-logo-orange-purple.png
 title: CNP Documentation
